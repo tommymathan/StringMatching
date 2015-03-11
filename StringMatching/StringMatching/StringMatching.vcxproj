@@ -78,7 +78,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="StringMatch.cpp" />
+    <ClInclude Include="stringmatch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stringmatch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
